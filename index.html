@@ -1,83 +1,115 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Wawa!</title>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <h1>Sa mo premier website</h1>
-        <p>
-            Mo <strong> sorti </strong>
-            <em>moris</em>  
-            !
-            </p>
+    <!-- Google Fonts -->
+    <!-- Swap out "Roboto" for the font(s) you want to use -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-        <a href="https://www.google.com">rest of the internet</a>
-        <div>
-            <img src="download.jpeg">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Your own CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Pi I Be More</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="Logo.jpg" class="d-inline-block align-middle">
+          Pi 
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <!-- The "ml-auto" means - set the left margin as high as you can, automatically -->
+          <!-- This causes the links to move to the right -->
+          <!-- https://getbootstrap.com/docs/4.4/utilities/flex/#auto-margins -->
+          <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="about us.html">About Us</a>
+            <a class="nav-item nav-link" href="programs.html">Programs</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <a class="btn btn-outline-info" href="apply.html">Apply Now</a>
+          </div>
         </div>
+      </div>
+    </nav>
 
-        <p>
-            Aster nou pou fer ban steps
-        </p>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Empowering young minds
+          to shape the future.</h1 class="display-4">
+        <p class="lead">Scholarships in the USA and Canada,
+          making the best education affordable and accessible.</p>
+        <a class="btn btn-info btn-lg" href="programs.html" role="button">Apply Now!</a>
+      </div>
+    </div>
 
-        <ul>
-        <li>li</li> 
-        <li>pa</li> 
-        <li>faceile</li> 
-        </ul>
-
-
-
-        <ol>
-            <li>bizin compren</li>
-            <li>lerla to try</li>
-            <li>li couma 1 lang</li>
-        </ol>
-        </p>
-
-        <table>
-            <tr>
-                <th>
-                    product
-                </th>
-                <th>price</th>
-            </tr>
-            <tr>
-                <td>
-                    plate
-                </td>
-                <td>
-                    $19
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Fork
-                </td>
-                <td>
-                    $4
-                </td>
-            </tr>
-        </table>
-
-        <hr>nouvo page aster
-
-        <p>
-        Phronesis: USA
-        <span>nou sanz to lavie</span>
-        </p>
-
-        <h2>Ki zot bizin fer</h2>
-
-        <p>
-            mo pou done 1 lexemp emba
-        </p>
-
-        <a href="https://wikipedia.org">sa 1 cheat sheat</a>
-        
-        <div>
-            <a> href="about.html"> about</a>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>Why us?</h2>
         </div>
-</body>
+      </div>
+      <!-- An example of Bootstrap's spacing utility classes -->
+      <!-- https://getbootstrap.com/docs/4.4/utilities/spacing/#how-it-works -->
+      <!-- The "mt-4" gives you more margin on top, responsively -->
+      <div class="row mt-4">
+        <div class="col-sm-4 text-center">
+          <h1><i class="fas fa-code"></i></h1>
+          <h5>Our Guarantee</h5>
+          <p>We are the No. 1 consulting firm, specialising in getting you admitted to the best universities in the world.
+            And that too, on mind blowing scholarships, so your parents can start planning for retirement.</p>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h1><i class="fas fa-chart-line"></i></h1>
+          <h5>Our Students and Culture</h5>
+          <p>They are passionate and ambitious young people with the drive and ambition
+            to solve the continent's biggest and toughest problems.</p>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h1><i class="fas fa-code-branch"></i></h1>
+          <h5>Success, Personalized</h5>
+          <p>Success is not about where you’re from or which school you’ve been to. Success is a personal thing.
+            It’s the deal between you and your dreams. How invested you’ll be in making your dreams come true, in crafting your future.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer">
+      <div class="row my-5">
+        <div class="col-sm-6">
+          <img src="Logo.jpg">
+        </div>
+        <div class="col-sm-3">
+          <h6>Pi I Be More</h6>
+          <ul class="list-unstyled mt-3">
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="apply.html">Apply Now</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h6>Established 2020</h6>
+          <p class="mt-3"><em>Copyright 2020 Pi</em></p>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
